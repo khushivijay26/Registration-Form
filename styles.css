@@ -1,0 +1,75 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.text-input {
+    color: grey;
+    font-size: 13px;
+}
+
+.input {
+    width: 12.5rem;
+    color: black;
+    background-color: lightgrey;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.phone-number {
+    display: flex;
+}
+
+.form-check-inline {
+    margin-right: 3rem !important;
+}
+
+.submission {
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        padding-left: 5rem;
+    }
+
+    #company {
+        width: 15rem !important;
+    }
+
+    #email {
+        width: 15rem !important;
+    }
+
+    .form-select {
+        width: 15rem !important;
+    }
+
+    #code {
+        width: 3rem !important;
+    }
+
+    #pnum {
+        width: 11rem !important;
+        margin-left: unset !important;
+    }
+
+    .yes {
+        margin-left: unset !important;
+    }
+}
